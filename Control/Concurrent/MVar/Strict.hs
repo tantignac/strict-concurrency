@@ -40,7 +40,7 @@ import Control.Concurrent.MVar ( MVar, newEmptyMVar, takeMVar,
                   tryTakeMVar, isEmptyMVar, addMVarFinalizer
                 )
 import GHC.Exts
-import GHC.IOBase
+import GHC.Base
 
 import Prelude
 import Control.Exception as Exception
